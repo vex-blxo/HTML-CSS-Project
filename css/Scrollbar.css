@@ -1,0 +1,40 @@
+.section1 {
+    width: 800px; /* Adjust width as needed */
+    height:180px; /* Adjust height as needed */
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box; /* Include padding and border in width/height */
+    overflow-y: auto; /* Add scroll if content exceeds height */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .title1 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 8px;
+  }
+
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .section1::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .section1::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent thumb */
+    border-radius: 5px; /* Optional: Rounded corners */
+  }
+  
+  .section1::-webkit-scrollbar {
+      width: 8px; /* adjust the width of the scrollbar */
+  }

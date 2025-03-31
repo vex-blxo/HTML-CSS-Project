@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.nav button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background: linear-gradient(90deg, #8e8efa 25%, #bfeaf8 50%, #8e8efa 75%);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    width: 150px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+
+.nav button:hover {
+    color: #ffffff;
+    background: linear-gradient(90deg, #2b2b4b 25%, #354145 50%, #2b2b4b 75%);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); 
+}
+
+/* Hide all sections except the default active one */
+.section1 {
+    display: none;
+}
+
+.section1.active-section {
+    display: block;
+}
